@@ -1,0 +1,28 @@
+{
+  "name": "tsorth",
+  "version": "1.0.0",
+  "description": "a forth like language in typescript maybe",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/sanketghosh/tsorth"
+  },
+  "keywords": [
+    "forth",
+    "typescript",
+    "programming",
+    "tsorth",
+    "language"
+  ],
+  "author": "github.com/sanketghosh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.10",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.3.3"
+  }
+}
