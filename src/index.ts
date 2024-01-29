@@ -13,3 +13,18 @@ const OP_PUSH = iota(true);
 const OP_PLUS = iota();
 const OP_DUMP = iota();
 const COUNT_OPS = iota();
+
+function push(x: number) {
+  return [OP_PUSH, x];
+}
+
+function plus() {
+  return [OP_PLUS];
+}
+
+function dump() {
+  return [OP_DUMP];
+}
+
+const program = [push(20), push(80), plus(), dump()];
+console.log(program);
