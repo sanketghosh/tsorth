@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/ShaanCoding/ReadME-Generator">
-    <img src="./public/tsorth.png" alt="Logo" width="300" height="100">
+    <img src="./public/tsorth.png" alt="Logo" width="400" height="150">
   </a>
 
   <h1 align="center">tsorth</h3>
