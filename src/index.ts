@@ -1,6 +1,6 @@
+/* 
 let iota_counter = 0;
 
-/* 
 // iota func
 function iota(reset: boolean = false) {
   if (reset) {
@@ -18,7 +18,7 @@ const OP_DUMP: number = iota(); // 2
 const COUNT_OPS: number = iota(); // 3 
 */
 
-// instead of using iota we can use this
+// instead of using iota we can use enum
 enum OPS {
   OP_PUSH,
   OP_PLUS,
